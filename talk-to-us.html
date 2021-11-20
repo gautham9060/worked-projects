@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>talk-to-us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/master.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/1922163732.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-md sticky-top">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.JPG" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon ">
+                        <i class="fas fa-bars text-warning"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav w-100 justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="our-services.html">OUR SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="our-work.html">OUR WORK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TESTIMONIALS</a>
+                        </li>
+                        <li class="nav-item" id="talk">
+                            <a class="nav-link" href="talk-to-us.html">TALK TO US</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="container-fluid">
+        <div class="ourservices">
+            <div class="ourimgt">
+                <h2 class="text-center text-white">Our graphics consultants have extensive experience in visual advocacy
+                    and strategy
+                </h2>
+                <br>
+                <p class="text-center text-white"><b>Legal Images consultants are experienced in virtualy every type of civil and criminal litigation</b></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--two div start-->
+    <div class="container mt-5 ">
+        <div class="row ">
+
+            <div class="col-md-6">
+                <h2><b>Say hello to matt</b><img src="./images/200px-383-waving-hand-1.svg.png" alt="handwave" id="handwave"></h2>
+                <div class="row mt-5">
+                    <div class="col-md-2">
+                        <i class="fas fa-phone-alt roundt mt-1"></i>
+                    </div>
+                    <div class="col-md-10">
+                        <p>Tell us about your case</p>
+                        <h3><a href="tel-212-666-2333">212-666-2333</a></h3>
+                        <hr id="telhr">
+                    </div>
+
+                    <div class="col-md-2">
+                        <i class="far fa-envelope roundt mt-3"></i>
+                    </div>
+                    <div class="col-md-10 mt-3">
+                        <p>Call or email Matthew Loozis</p>
+                        <h3><a href="matt@legalimages.com">matt@legalimages.com</a></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 contactusf">
+                <h2 class="mb-5"><b>Contact us</b></h2>
+                <form class="needs-validation bg-white forml" novalidate>
+
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="uname" placeholder="Name*" name="name" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="form-group">
+
+                        <input type="number" class="form-control" id="pwd" placeholder="Phone" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="form-group">
+
+                        <input type="email" class="form-control" id="uname" placeholder="Email*" name="uname" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Message"
+                            required></textarea>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <button type="submit" class="btn-block text-left text-white" id="contactfb">CONTACT US
+                        <i class="fas fa-arrow-right text-white d-flex justify-content-end ml-5"
+                            id="rarrow"></i></button>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+    <!--two div end-->
+
+
+    <!--footer start-->
+    <footer class="container">
+        <div class="row followus">
+            <div class="col-sm-9 line"><a href="index.html"><img src="images/logo.JPG" alt="logo"></a>
+            </div>
+            <div class="col-sm-3">
+                <p id="follow"> Follow us <span>in</span></P>
+            </div>
+        </div>
+
+        <div class="row foot">
+            <div class="col-md-5 info">
+                <p>Legal images is a litigation support company specialization in creative and persuasive
+                    graphic design and full trail support for lawyer<br><br>
+                    All Rights Reserved | Privacy<br>
+                    <i class="far fa-copyright mr-1"></i>2019,LEGAL IMAGES</p>
+            </div>
+            <div class="col-md-3 linkf">
+                <h6><b> QUICK LINK</b></h6>
+                <p class="fot1">
+                    <a href="index.html">Home</a><br>
+                    <a href="about.html">ABOUT Us</a><br>
+                    <a href="our-services.html">Our Services</a><br>
+                    <a href="our-work.html">Our Work</a><br>
+                    <a href="#">Testimonials</a><br>
+                    <a href="talk-to-us.html">Contact Us</a><br>
+                </p>
+            </div>
+            <div class="col-md-4 linkf">
+                <h6><b>CONTACT</b></h6>
+                <div class="row fot1">
+                    <div class="col-1">
+                        <a href="#"><i class='fas fa-map-marker-alt'></i></a>
+                    </div>
+                    <div class="col-11">
+                        <b>90 Broad Street,Suite 600 New York,
+                        NY 10004</b>
+                    </div>
+                    <div class="col-1">
+                        <a href="tel:212-666-2333"><i class="fas fa-phone-volume"></i></a>
+                    </div>
+                    <div class="col-11">
+                        <b>(212) 666-2333</b>
+                    </div>
+                    <div class="col-1">
+                        <a href="#"><i class="far fa-envelope"></i></a>
+                    </div>
+                    <div class="col-11">
+                        <b>infolegalimages.com</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer end-->
+
+    <script>
+        // Disable form submissions if there are invalid fields
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Get the forms we want to add validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+
+
+</body>
+
+</html>

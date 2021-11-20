@@ -1,0 +1,103 @@
+.nav-link{
+    color: black;
+}
+#talk{
+    border: 1px solid black;
+    padding: 0px 20px 0px 20px;
+}
+
+.ourservices{
+            background-image: url("../images/our.jpg");
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 300px;
+.ourimgt{
+     padding-top: 40px;
+h2{
+    line-height: 1.5cm;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    }
+        }
+}
+
+
+#telhr{
+    width: 70%;
+    border: 1px solid #aaaa !important;
+}
+.contactusf{
+    padding-right: 100px;
+}
+#contactfb{
+    background-color: #4d105f;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+}
+#rarrow{
+    position: relative;
+    top: -18px;
+}
+
+@media screen and (max-width: 991px) {
+    .ourservices{
+        .ourimgt{
+    h2{
+        line-height: 1.5cm;
+        padding-top: 50px;
+        font-size: 25px;
+        font-weight: bold;
+        }
+
+    }
+}
+.roundt{
+    margin-bottom: 50px;
+   
+}
+}
+
+
+@media screen and (max-width: 575px) {
+    .navbar-brand img{
+        width: 100%;
+        height: 50px;
+            }
+    .ourservices{
+        background-image: url("../images/our.jpg");
+        width: 100%;
+        height: 300px;
+.ourimgt{
+ padding-top: 40px;
+h2{
+font-size: 25px;
+font-weight: bold;
+line-height: 0.8;
+}
+p{
+    font-size: 15px;
+}
+        }
+                }
+                .purplebox{
+                    h5 a{
+                   color: white;
+                   background-color:rgb(77, 16, 95);
+                   font-size: 10px; 
+                }
+                }
+}             
+
+
+.roundt{
+    border-radius: 50%;
+    padding: 20px;
+    border: 1px solid rgb(209, 195, 178);
+    font-size: 20px;
+    position: relative;
+    top: 38px;
+}
